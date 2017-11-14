@@ -19,3 +19,5 @@ Route::post("/teacherSignup","teacherSignupController@teacherSignup")->name("tea
 Route::get("/studentSignup","StudentController@viewStudentSignup")->name("studentSignupView");
 
 Route::post("/studentSignup","StudentController@studentSignup")->name("studentSignup");
+
+Route::get("/studentList","studentListController@index");
